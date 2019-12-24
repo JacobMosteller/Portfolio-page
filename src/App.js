@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./App.css"
+import Home from "../src/Components/Home/Home"
+import Dash from "../src/Components/Dash/Dash"
+import Skills from "../src/Components/Skills/Skills"
+import About from "../src/Components/About/About"
+import Contact from "../src/Components/Contact/Contact"
+import Experience from "../src/Components/Experience/Experience"
+import Projects from "../src/Components/Projects/Projects"
+import { importDefaultSpecifier } from "@babel/types"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Home />
+			<Dash />
+			<Experience />
+			<Skills />
+			<About />
+			<Projects />
+			<Contact />
+		</div>
+		// <div class='grid-container'>
+		// 	<header class='header'></header>
+		// 	<aside class='sidenav'>
+		// 		<Dash />
+		// 	</aside>
+		// 	<main class='main'>
+		// 		<Experience />
+		// 		<Skills />
+		// 		<About />
+		// 		<Projects />
+		// 	</main>
+		// 	<footer class='footer'>
+		// 		<Contact />
+		// 	</footer>
+		// </div>
+	)
 }
 
-export default App;
+export default App
