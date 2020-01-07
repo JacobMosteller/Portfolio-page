@@ -1,0 +1,15 @@
+.Contact {
+	background-color: #2f2fa2;
+	height: 300px;
+}
+.center {
+	text-align: center;
+	margin-left: 0;
+}
+.logos {
+	padding: 5px;
+	margin: 5px;
+}
+h4 {
+	color: rgb(32, 32, 32);
+}

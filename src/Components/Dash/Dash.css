@@ -35,12 +35,12 @@
 
 .place {
 	display: block;
-	color: white;
+	color: #f64c72;
 	padding: 1px 16px;
 	text-decoration: none;
 }
 .place:hover {
-	background-color: rgb(255, 145, 0);
+	background-color: #f64c72;
 	color: #000;
 	padding: 15px 16px;
 	text-decoration: none;
@@ -48,11 +48,11 @@
 .home {
 	margin-top: 350px;
 	display: block;
-	color: white;
+	color: #f64c72;
 	padding: 1px 16px;
 }
 .home:hover {
-	background-color: rgb(255, 145, 0);
+	background-color: #f64c72;
 	color: #000;
 	padding: 15px 16px;
 	text-decoration: none;

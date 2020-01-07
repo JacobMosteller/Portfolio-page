@@ -1,9 +1,10 @@
 import React, { Component } from "react"
+import "./Projects.css"
 
 export default class Projects extends Component {
 	render() {
 		return (
-			<div>
+			<div className='Projects'>
 				<h1>
 					<a name='Projects'>Projects</a>
 				</h1>
@@ -11,3 +12,6 @@ export default class Projects extends Component {
 		)
 	}
 }
+
+//https://healthy-home.herokuapp.com/
+//https://myweddingwebsite.herokuapp.com/

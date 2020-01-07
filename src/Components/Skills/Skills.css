@@ -1,0 +1,8 @@
+.Skills {
+	background-color: #242582;
+	height: 500px;
+}
+li {
+	display: inline;
+	padding: 10px;
+}

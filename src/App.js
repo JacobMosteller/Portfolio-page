@@ -12,11 +12,11 @@ import { importDefaultSpecifier } from "@babel/types"
 function App() {
 	return (
 		<div className='App'>
-			<Home />
 			<Dash />
-			<Experience />
-			<Skills />
+			<Home />
 			<About />
+			<Skills />
+			<Experience />
 			<Projects />
 			<Contact />
 		</div>
