@@ -11,7 +11,9 @@ export default class About extends Component {
 
 				<div className='me'>
 					<p>I'm 21</p>
+					<br />
 					<p>I have a wife and a 1 year old child</p>
+					<br />
 					<p>My hobbys include:</p>
 					<p>Film</p>
 					<p>Technology</p>

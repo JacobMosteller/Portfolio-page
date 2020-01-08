@@ -1,4 +1,16 @@
 .Projects {
 	background-color: #242582;
-	height: 500px;
+	height: 800px;
+}
+.Health p {
+	text-decoration: none;
+	text-align: center;
+	padding-right: 250px;
+}
+.Wed p {
+	text-align: center;
+	padding-right: 250px;
+}
+img {
+	margin-top: 50px;
 }
